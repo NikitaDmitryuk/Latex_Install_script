@@ -1,4 +1,4 @@
-# Latex Install srypt
+# Latex Install script
 
 ## Use
 
