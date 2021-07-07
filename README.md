@@ -1,1 +1,7 @@
-# Latex_Install_srypt
+# Latex Install srypt
+
+## Use
+
+```shell
+sudo bash latex_install.sh
+```
