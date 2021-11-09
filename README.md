@@ -7,3 +7,9 @@ Installing the required packages for compiling latex files.
 ```shell
 sudo bash latex_install.sh
 ```
+or 
+
+```shell
+
+```
+for compile latex with docker conteiner
