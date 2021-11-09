@@ -10,7 +10,7 @@ sudo bash latex_install.sh
 
 ## Docker
 
-Установка:
+Подготовка:
 ```shell
 sudo systemctl start docker
 docker pull ubuntu:20.04
@@ -19,6 +19,13 @@ docker pull ubuntu:20.04
 Сборка:
 ```shell
 docker build -t <NAME> .
+```
+
+Или можно скачать готовый контейнер:
+
+```shell
+sudo systemctl start docker
+docker pull 2109199812/latex_builder
 ```
 
 Использование
