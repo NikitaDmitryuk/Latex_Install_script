@@ -7,6 +7,10 @@ Installing the required packages for compiling latex files.
 ```shell
 sudo bash latex_install.sh
 ```
+перед запуском компиляции необходимо выключить conda, если она есть.
+```shell
+conda deactivate
+```
 
 ## Docker
 
