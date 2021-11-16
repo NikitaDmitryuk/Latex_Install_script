@@ -23,6 +23,7 @@ RUN echo "export INFOPATH=/usr/local/texlive/2021/texmf-dist/doc/info${INFOPATH:
 RUN echo "export MANPATH=/usr/local/texlive/2021/texmf-dist/doc/man${MANPATH:+:${MANPATH}}" >> ~/.bashrc
 
 RUN apt-get -y install equivs --no-install-recommends freeglut3
+RUN apt-get install latexmk
 RUN wget -O debian-equivs-2021-ex.txt https://www.tug.org/texlive/files/debian-equivs-2021-ex.txt
 
 RUN equivs-build debian-equivs-2021-ex.txt
