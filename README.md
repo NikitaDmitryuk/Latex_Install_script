@@ -17,8 +17,9 @@ conda deactivate
 Подготовка:
 ```shell
 sudo systemctl start docker
-docker pull ubuntu:20.04
+sudo usermod -a -G docker $USER
 ```
+Затем перезагрузить
 
 Сборка:
 ```shell
